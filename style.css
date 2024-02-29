@@ -52,13 +52,13 @@
     filter: drop-shadow(30px 30px 14px black);
     animation: updown 1s backwards cubic-bezier(0.4, 0, 1, 1);
   }
-  /*
+  
   .header-img img:hover {
     scale: 1.1;
     filter: contrast(1.2);
     transition: 1s;
   }
-  */
+  
   header, .header-wrapper {
     display: flex;
     flex-direction: column;
@@ -252,10 +252,12 @@
     
     height: 7.8rem;
     
-    background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%)
+    background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+    
+  
   }
   
-  footer p {
+  footer p, a {
     font-size: var(--lh-p-main);
     line-height: 2.4rem;
     
